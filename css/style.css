@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Roboto
+}
+
+#bar {
+    opacity: 0.88;
+    background: #000000;
+    color: #dad756;
+    clear: right;
+}
+#bar li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 15px;
+    height: 15px;
+}
+
+#perfil{
+    font-family: Playball;
+    background: url('../img/espaco.jpg');
+    background-position: center;
+    padding-top: 10px
+}
+#perfil img {
+    display: block;
+    height: 190px;
+    width: 150px;
+    margin: auto;
+    border-radius: 20px;
+}
+#perfil h1 {
+    text-align: center;
+    color: #000000
+}
+#sobre div{
+    width: 50%;
+}
+#sobre2 div{ 
+    width: 50%;
+}
+footer {
+    text-align: center;
+}
