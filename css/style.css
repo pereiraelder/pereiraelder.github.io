@@ -1,22 +1,29 @@
-*{
-    padding: 0;
-    margin: 0 auto;
-}
 
 body{
     font-family: Roboto
 }
 
 #bar {
-    opacity: 0.88;
-    background: #000000;
+    opacity: 0.94;
+    background: #000918;
+    margin-bottom: -17px;
+}
+#bar a {
     color: #dad756;
-    clear: right;
+    text-decoration: none;
+    transition: .5s;
+    padding: 5px;
+}
+#bar a:hover {
+    transition: .5s;
+    border-radius: 5px;
+    border: 1px solid #dad756;
+    background: rgba(0,0,0,.2)
 }
 #bar li {
     display: inline-block;
     list-style-type: none;
-    margin: 15px;
+    margin: 10px 20px 20px 15px;
     height: 15px;
 }
 
@@ -24,25 +31,93 @@ body{
     font-family: Playball;
     background: url('../img/espaco.jpg');
     background-position: center;
-    padding-top: 10px
+    padding-top: 40px;
+    margin-bottom: -20px;
 }
 #perfil img {
     display: block;
-    height: 190px;
+    height: 220px;
     width: 150px;
-    margin: auto;
+    margin: 5px auto;
     border-radius: 20px;
 }
-#perfil h1 {
+#identif {
+    padding-top: 20px;
     text-align: center;
-    color: #000000
+    color: #0e4244;
 }
-#sobre div{
-    width: 50%;
+#sobregeral {
+    background: #154949; 
+    color: white;
+    padding-top: 30px;
 }
-#sobre2 div{ 
-    width: 50%;
+.amarelo {
+    color: #dad756;
+}
+.sobre1 {
+    text-align: justify;
+ }
+#sobre3 {
+    margin-top: 20px;
+    margin-left: 80px;
 }
 footer {
     text-align: center;
+    color: #dad756;
+}
+#curio {
+    margin-left: 70px;
+    margin-right: 0 auto;
+    text-align: justify;
+    list-style-type: none;
+}
+#curio2 {
+    margin-bottom: 50px;
+
+}
+#info {
+    text-align: center;
+}
+#info2 ul {
+    display: block; 
+    margin-left: 115px;
+}
+#social a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#social li {
+    margin-right: auto; 
+}
+#rodape {
+    background: #000918;
+    padding-top: 20px;
+}
+#formulario input, textarea {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 10px 10px auto;
+    border-radius: 10px;
+    display: block;
+    outline: 0; 
+}
+#formulario textarea {
+    height: 90px;
+    resize: none;
+    margin: 10px;
+}
+#formulario button {
+    display: block;
+    width: 200px;
+    margin: 10px;
+}
+#contato { 
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+#ctt {
+    background: url('../img/espacorodape.jpg');
+    padding-bottom: 70px;
 }
